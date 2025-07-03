@@ -1,0 +1,60 @@
+﻿# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore build files
+target/
+build/
+
+# Ignore dependency directories
+node_modules/
+.mvn/
+vendor/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files
+*.env
+application.yml
+application.properties
+
+# Ignore database files
+*.db
+*.sql
+
+# Ignore RabbitMQ-related files
+rabbitmq/
+
+# Ignore Keycloak-related files
+keycloak/
+
+# Ignore AI-related files
+*.ai
+*.model
+
+# Ignore frontend build files
+dist/
+public/
+
+# Ignore generated files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore IntelliJ Rider-specific files
+.idea/
+*.ipr
+*.iws
